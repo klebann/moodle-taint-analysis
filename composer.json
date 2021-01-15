@@ -1,0 +1,31 @@
+{
+    "name": "klebann/moodle-taint-analysis",
+    "description": "A Psalm plugin to analyse taint source and sinks in moodle ",
+    "type": "psalm-plugin",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "klebann"
+        }
+    ],
+    "extra": {
+        "psalm" : {
+            "pluginClass": "Klebann\\MoodleTaintAnalysis\\Plugin"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Klebann\\MoodleTaintAnalysis\\": ["."],
+            "Klebann\\MoodleTaintAnalysis\\Hooks\\": ["hooks"]
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.3",
+        "nikic/php-parser": "^4.0"
+    }
+}
