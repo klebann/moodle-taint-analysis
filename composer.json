@@ -1,6 +1,6 @@
 {
     "name": "klebann/moodle-taint-analysis",
-    "description": "A Psalm plugin to analyse taint source and sinks in moodle ",
+    "description": "A Psalm plugin to analyse taint source and sinks in moodle",
     "type": "psalm-plugin",
     "minimum-stability": "stable",
     "license": "MIT",
