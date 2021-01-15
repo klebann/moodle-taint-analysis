@@ -52,6 +52,7 @@ class MoodleScanner implements AfterFunctionCallAnalysisInterface
             return;
         }
 
+        //TODO
         $expr_type = new Union([ new TString() ]);
 
         // should be a globally unique id
